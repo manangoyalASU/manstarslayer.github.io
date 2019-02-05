@@ -1,0 +1,62 @@
+#mainlogo {
+  text-align:center;
+}
+
+body {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+li {
+    float: left;
+  color: black;
+  font-size: 1em;
+  width: 14%;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+li a hover {
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+#m {
+  float: left;
+  text-align: center;
+}
+
+#d {
+  float: left;
+  text-align: center;
+}
+
+#a {
+  float: left;
+  text-align: center;
+}
+
+#j {
+  float: left;
+  text-align: center;
+}
+
+#p {
+  text-align: center;
+}

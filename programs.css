@@ -1,0 +1,54 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Manan Goyal
+   Date:   12/7/18
+
+   Filename:         programs.css
+   Supporting Files:
+
+*/
+
+table {
+  width: 100%;
+  border-collapse: 2px solid black;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+caption {
+  text-align: bottom left;
+  font-size: 0.8em;
+}
+
+td {
+  font-size: 0.7em;
+  vertical-align: top;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+tr {
+  height: 25px;
+}
+
+thead {
+  color: white;
+  background-color: rgb(105, 177, 60);
+  font-size: 0.7em;
+  border: 1px solid gray;
+}
+
+th:nth-of-type(1) {
+  background-color: rgb(153, 86, 7);
+}
+
+th:nth-of-type(7) {
+  background-color: rgb(153, 0, 153);
+}
+
+th:nth-of-type(8) {
+  background-color: rgb(153, 0, 153);
+}

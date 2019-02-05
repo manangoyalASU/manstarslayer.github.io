@@ -1,0 +1,46 @@
+#c {
+  float: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+#mainlogo {
+  text-align:center;
+}
+
+body {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+li {
+    float: left;
+  color: black;
+  font-size: 1em;
+  width: 14%;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+li a hover {
+  background-color: gray;
+}
